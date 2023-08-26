@@ -4,42 +4,158 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MNX Studio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#"> <i class="bi bi-camera2 orange-color"></i> MNX Studio </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-            <div class="navbar-nav mx-auto">
-              <a class="nav-link active" aria-current="page" href="#home">Strona główna</a>
-              <a class="nav-link" href="#aboutus">O nas</a>
-              <a class="nav-link" href="#team">Zespół</a>
-              <a class="nav-link" href="#contact">Kontakt</a>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-camera2 orange-color"></i> MNX Studio
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link active" aria-current="page" href="#home"
+              >Strona główna</a
+            >
+            <a class="nav-link" href="#aboutus">O nas</a>
+            <a class="nav-link" href="#team">Zespół</a>
+            <a class="nav-link" href="#contact">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div
+        class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text-center"
+      >
+        <p class="display-1">MNX Studio</p>
+        <p class="welcome-text mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <a type="button" href="#aboutus" class="btn btn-light">Poznaj nas</a>
+        <div class="hero-shadow"></div>
+      </div>
+    </section>
+
+    <main>
+      <section id="aboutus">
+        <div class="container py-5 aboutus-boxes">
+          <div class="row text-center">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="aboutus-box m-3 p-4 p-lg-5 border text-dark">
+                <h3>Jakość</h3>
+                <i class="bi bi-check aboutus-icon"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus, omnis?
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="aboutus-box m-3 p-4 p-lg-5 border text-light bg-dark">
+                <h3>Klienci</h3>
+                <i class="bi bi-people-fill aboutus-icon"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus, omnis?
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="aboutus-box m-3 p-4 p-lg-5 border text-dark">
+                <h3>Sprzęt</h3>
+                <i class="bi bi-hdd-stack-fill aboutus-icon"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus, omnis?
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="aboutus-box m-3 p-4 p-lg-5 border text-light bg-dark">
+                <h3>Ceny</h3>
+                <i class="bi bi-currency-dollar aboutus-icon"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus, omnis?
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </nav>
 
-      <section id="home" class="home">
-    <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text-center">
-        <p class="display-1">MNX Studio</p>
-        <p class="welcome-text mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                    <a type="button" href="#aboutus" class="btn btn-light">Poznaj nas</a>
-                    <div class="hero-shadow"></div>
-    </div>
+        <div class="container py-5">
+            <p class="display-3 text-uppercase orange-color text-center mb-4">Czym się wyróżniamy?</p>
 
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Najlepsza jakość produktów
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas alias tempore voluptatem corporis ratione ea tempora officia impedit, vitae deserunt explicabo aperiam soluta nemo? Eligendi itaque laudantium exercitationem dolorem vel omnis dicta molestias dolores, possimus odit distinctio atque sequi asperiores? Animi, veniam enim odit rem maxime aliquid soluta iusto illum mollitia libero ipsum repellendus harum saepe eveniet magni sit praesentium? Quod exercitationem facere minima inventore tempora nisi incidunt corrupti magnam odio ipsa! Facere, tempore placeat voluptate pariatur totam illo vel minima cum ratione nostrum quis officiis laudantium itaque mollitia aspernatur exercitationem nulla nesciunt, error accusantium eaque non porro unde! Eum!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Świetne relacje z klientami
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem natus quae aliquid deserunt est odit debitis dolores sint, atque, fugiat perferendis soluta magnam dolor, in officiis eveniet totam. Ad temporibus perspiciatis rerum eaque incidunt. Assumenda quae nobis minima impedit magni inventore maiores iusto? Possimus cumque pariatur architecto, alias porro, nesciunt praesentium vero voluptatum non maiores error sapiente voluptates laudantium aspernatur quaerat itaque debitis expedita rem tenetur esse ducimus exercitationem eveniet asperiores. Modi cum asperiores atque vero laboriosam impedit repellat officia minima blanditiis architecto et ab tempora sit, aspernatur mollitia doloribus, quos alias amet, fuga accusantium itaque consequatur? Quaerat, porro quidem.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Zdobywcy wielu nagród
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nesciunt accusantium consequatur numquam veritatis quae perspiciatis fuga aliquid similique et dolores velit corporis repudiandae quo a repellat harum vel neque, optio ex. Quia magni, enim asperiores maiores nemo ab. Sed optio quo nam placeat ab soluta fugit est aperiam? Atque et quibusdam eveniet veniam maxime nihil accusamus? Minus incidunt mollitia optio non doloremque quidem omnis odio! Ullam eligendi quo quidem! Culpa quisquam facilis quam. Aut cumque molestiae ex voluptatem hic? Autem odio, repellendus impedit dignissimos amet iure beatae labore laudantium nemo sapiente fugit neque inventore eius porro reiciendis praesentium quis?
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
       </section>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
